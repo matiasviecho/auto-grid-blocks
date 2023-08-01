@@ -77,3 +77,20 @@ button:focus-visible {
     max-width: 1440px;
   }
 }
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
