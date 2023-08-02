@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
-import { Grid } from './components/Grid/Grid';
-import { iGridItem } from './components/Grid/Grid';
+import { Grid } from './components/Grid/Grid.tsx';
+import { iGridItem } from './components/Grid/Grid.tsx';
 function App() {
   const [items, setItems] = useState<iGridItem[]>([
     { title: 'Item 1', color: 'red', id: 1 },
