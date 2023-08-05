@@ -19,7 +19,6 @@ export const Grid: React.FC<{
 
   const getDivider = () => {
     if (length % 4 === 0 || (length % 2 === 0 && length !== 2)) {
-      console.log('get ');
       return 4;
     } else if (length % 3 === 0 || length % 5 === 0) {
       return 3;
